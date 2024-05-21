@@ -15,12 +15,17 @@ Bob_Raoul is a digital adaptation of the traditional Raoul concept, where a rece
 - **Sound Effects**: Sound effects are played from the "sounds" directory to provide audio feedback.
 - **Cap Storage**: The total number of caps thrown into Bob is stored in a file named `caps.txt`.
 
-## Hardware and Software Requirements
+## Hardware Requirements
 
-- Hardware:
-  - Computer capable of running Python
-- Software:
-  - Python 3
+- Raspberry Pi (any model with GPIO pins and a screen output)
+- Infrared sensor
+- Plastic mannequin (Bob)
+- Screen (connected to the Raspberry Pi)
+- Beer caps
+
+## Software Requirements
+
+- Python 3
   - Tkinter (included in standard Python distribution)
 
 ## Installation
@@ -53,6 +58,7 @@ Bob_Raoul is a digital adaptation of the traditional Raoul concept, where a rece
 
 ## Directory Structure
 
+```
 Bob_Raoul/
 ├── bob.py
 ├── caps.txt
@@ -60,7 +66,7 @@ Bob_Raoul/
 │   └── [various sound files]
 ├── bobbg.png
 └── README.md
-
+```
 
 ## Contribution
 
