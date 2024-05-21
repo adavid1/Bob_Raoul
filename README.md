@@ -26,7 +26,7 @@ Bob_Raoul is a digital adaptation of the traditional Raoul concept, where a rece
 ## Software Requirements
 
 - Python 3
-  - Tkinter (included in standard Python distribution)
+- Tkinter (included in standard Python distribution)
 
 ## Installation
 
